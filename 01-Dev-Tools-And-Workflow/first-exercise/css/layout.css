@@ -1,0 +1,73 @@
+/* Adding colour to the background for the whole layout */
+html {
+  background-color: #1d1d1d;
+}
+/* Adding colour for the page content */
+
+.site-content{
+  background-color: #242424;
+}
+
+/* Setting the whole site to flex-column */
+
+.site-wrapper{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* Setting header to flex-row and justify content */
+
+/* ------------------------------------------ */
+.site-wrapper {
+  margin: 2rem;
+}
+
+.site-header {
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.site-navigation {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 2rem;
+}
+
+.nav-button{
+  background-color: #B21C1A;
+  padding: 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+
+/* Site content */
+.site-content {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* setting the footer to flex-row  and justify content*/
+
+.site-footer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* sizing the footer containers so they fit in a row */
+
+.footer-container{
+  flex: 0 0 50%;
+}
+
+/* sizing the footer images so they fit */
+
+.footer-picture{
+  width: 100%;
+  height: auto;
+}
