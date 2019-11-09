@@ -7,14 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <script src="https://kit.fontawesome.com/597dde3a29.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/main.css">
-  <title>{{ site.title }}</title>
+  <title>Team Project v1.0</title>
 </head>
 
 <body>
 
   <div class="site-wrapper">
     <div class="site-header">
-      <h1 class="page-title">{{ page.title }}</h1>
+      <h1 class="page-title">About</h1>
       <ul class="site-navigation">
         <li><a href="/" class="nav-button">Home</a></li>
         <li><a href="/page-one" class="nav-button">Pesho's Page</a></li>
@@ -23,23 +23,27 @@
       </ul>
     </div>
     <div class="site-content">
-      {{content}}
+      <h1>More about these guys</h1>
+
+<p>
+  This little website was created by the both of us
+</p>
     </div>
     <div class="site-footer">
       <div class="footer-container pesho-data">
         <p>Pesho's Contacts</p>
         <ul class="footer-ul">
           <li>
-            <a href=" {{site.github_url_pesho}} " target="_blank"> <i class="fab fa-github"></i></a>
+            <a href=" https://github.com/vekr0w " target="_blank"> <i class="fab fa-github"></i></a>
           </li>
           <li>
-            <a href="{{site.facebook_url_pesho}}" target="_blank"> <i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/vekr0w" target="_blank"> <i class="fab fa-facebook"></i></a>
           </li>
           <li>
-            <a href="{{site.linkedin_url_pesho}}" target="blank"> <i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/petar-grigorov-5305b1161/" target="blank"> <i class="fab fa-linkedin"></i></a>
           </li>
           <li>
-            <a href="{{site.softuni_url_pesho}}" target="blank"> <img src="../images/6661899.png" alt="" width="40px"
+            <a href="https://softuni.bg/users/profile/show/peter_grigorov" target="blank"> <img src="../images/6661899.png" alt="" width="40px"
                 height="40px"></a>
           </li>
         </ul>
@@ -48,16 +52,16 @@
         <p>Kamen's Contacts</p>
         <ul class="footer-ul">
           <li>
-            <a href=" {{site.github_url_kamen}} " target="_blank"> <i class="fab fa-github"></i></a>
+            <a href=" https://github.com/kamenyanakiev " target="_blank"> <i class="fab fa-github"></i></a>
           </li>
           <li>
-            <a href="{{site.facebook_url_kamen}}" target="_blank"> <i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100010155043105" target="_blank"> <i class="fab fa-facebook"></i></a>
           </li>
           <li>
-            <a href="{{site.linkedin_url_kamen}}" target="blank"> <i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/kamen-yanakiev-32874b191/" target="blank"> <i class="fab fa-linkedin"></i></a>
           </li>
           <li>
-            <a href="{{site.softuni_url_kamen}}" target="blank"> <img src="../images/6661899.png" alt="" width="40px"
+            <a href="https://softuni.bg/users/profile/show/kamen.yanakiev" target="blank"> <img src="../images/6661899.png" alt="" width="40px"
                 height="40px"></a>
           </li>
 
@@ -73,19 +77,23 @@
 
 <!-- <div class="site-wrapper">
     <header class="site-header">
-      <h1> {{ site.title }}</h1>
+      <h1> Team Project v1.0</h1>
     </header>
     <main class="site-main">
-      {% if page.title %}
+      
       <header>
-        <h3>{{page.title}}</h3>
+        <h3>About</h3>
       </header>
-      {% endif %}
-      {{ content }}
+      
+      <h1>More about these guys</h1>
+
+<p>
+  This little website was created by the both of us
+</p>
     </main>
     <footer class="site-footer">
       <p>Test paragraph from the website's footer, adding content from the config file here -> <a
-          href="/">{{site.facebook_username}}</a>
+          href="/"></a>
       </p>
     </footer>
   </div> -->
