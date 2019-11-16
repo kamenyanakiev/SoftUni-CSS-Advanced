@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+    /* grid-template-columns: 200px auto 200px; */
+    /* grid-template-columns: repeat(3, auto); */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.item {
+    padding: 3rem;
+    border: 1px solid black;
+    background: #f4f4f4;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+}

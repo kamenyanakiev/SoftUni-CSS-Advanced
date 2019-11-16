@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.item {
+    padding: 3rem;
+    border: 1px solid black;
+    background: #f4f4f4;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
