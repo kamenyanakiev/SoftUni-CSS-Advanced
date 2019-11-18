@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 3rem 0 0 2rem;
+}
+
+@media (ul) {
+    .list--item {
+      transition: 0.1s;
+      transform: translateY(10px);
+    }
+    .list--item:hover,
+    .list--item:focus {
+      transform: translateY(0);
+    }
+  }
+
+@media (ul) {
+    ul  {
+      transform: translateY(100px);
+      transition: 0.2s;
+    }
+    ul {
+      transform: translateY(0);
+    }
+    ul:nth-child(1) span {
+      transition-delay: 0.0s;
+    }
+    ul:nth-child(2) span {
+      transition-delay: 0.05s;
+    }
+    ul:nth-child(3) span {
+      transition-delay: 0.1s;
+    }
+    ul:nth-child(4) span {
+      transition-delay: 0.15s;
+    }
+    ul:nth-child(5) span {
+      transition-delay: 0.2s;
+    }
+    ul:nth-child(6) span {
+      transition-delay: 0.25s;
+    }
+  }

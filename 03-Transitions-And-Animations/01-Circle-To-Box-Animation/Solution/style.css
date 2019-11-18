@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+.circle {
+    margin-top: 10rem;
+    width: 7rem;
+    height: 7rem;
+    background: #FE0900;
+    border: none;
+    border-radius: 50%;
+    animation-name: transform;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+}
+
+@keyframes transform {
+    50% {
+        border-radius: 0%;
+        background: #FE8F00;
+    }
+    100% {
+        border-radius: 50%;
+        background: #FE0900;
+    }
+}
