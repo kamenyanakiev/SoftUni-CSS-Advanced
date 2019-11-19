@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+.buttons {
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    background: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: solid 5px #203F5D;
+}
+
+.buttons:hover {
+    transition: outline 0.3s linear;
+    outline-width: 10px;
+}

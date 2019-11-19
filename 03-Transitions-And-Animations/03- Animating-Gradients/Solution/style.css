@@ -1,0 +1,44 @@
+.gradient {
+    position: absolute;
+    margin: auto;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50vw;
+    height: 50vh;
+}
+
+.gradient::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 1;
+    content: "";
+    transition: opacity 0.2s linear;
+    background: linear-gradient(180deg, rgba(131,148,160,1) 0%, rgba(231,236,237,1) 100%);
+}
+
+.gradient:hover::before {
+    opacity: 1;
+}
+
+.gradient::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    content: "";
+    transition: opacity 0.2s linear;
+    background: linear-gradient(180deg, rgba(201,133,50,1) 0%, rgba(252,199,133,1) 100%);
+}
+
+.gradient:hover::after {
+    opacity: 1;
+}
