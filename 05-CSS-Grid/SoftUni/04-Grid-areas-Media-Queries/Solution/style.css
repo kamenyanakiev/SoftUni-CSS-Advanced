@@ -1,0 +1,41 @@
+body {
+    margin: 1rem;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'main main sidebar'
+    'footer footer footer';
+    gap: 1rem;
+}
+
+header, main, sidebar, footer {
+    background: black;
+    padding: 1rem;
+    color: white;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+sidebar {
+    grid-area: sidebar;
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media (max-width: 1024px) {
+    body {
+        grid-template-areas: 
+        'header header header'
+        'main main main'
+        'sidebar sidebar sidebar'
+        'footer footer footer';
+    }    
+}

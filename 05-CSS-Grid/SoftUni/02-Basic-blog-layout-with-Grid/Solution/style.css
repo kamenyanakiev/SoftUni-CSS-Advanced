@@ -1,0 +1,24 @@
+body {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+header, main, sidebar, footer {
+    background: black;
+    padding: 1rem;
+    color: white;
+}
+
+header {
+    grid-column: 1/ span 3;
+}
+
+main {
+    grid-column: 1 / span 2;
+}
+
+footer {
+    grid-column: 1 / span 3;
+}
